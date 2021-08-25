@@ -1,0 +1,12 @@
+.landing {
+  margin-top: 4.5rem;
+  background-image: url("../../images/landing.jpeg");
+
+  /* Full height */
+  height: 50vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

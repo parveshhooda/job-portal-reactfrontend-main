@@ -1,0 +1,9 @@
+.sendInvite {
+  color: #fff;
+  background-color: #3f51b5;
+  text-decoration: none;
+}
+.sendInvite:hover {
+  color: #fff;
+  background-color: #3f51b5;
+}
