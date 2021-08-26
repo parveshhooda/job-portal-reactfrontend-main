@@ -18,13 +18,21 @@ export function AuthProvider({ children }) {
 
   async function initFirebase() {
     const firebaseConfig = {
-      apiKey: "AIzaSyDhqMOYAoxr6mDD8esUzDnqI_JNZZIgC2I",
-      authDomain: "job-portal-latest.firebaseapp.com",
-      projectId: "job-portal-latest",
-      storageBucket: "job-portal-latest.appspot.com",
-      messagingSenderId: "786750618884",
-      appId: "1:786750618884:web:b98c0dae338ca972a3e451",
-      measurementId: "G-M2K3RJ986S",
+      //apiKey: "AIzaSyDhqMOYAoxr6mDD8esUzDnqI_JNZZIgC2I",
+      //authDomain: "job-portal-latest.firebaseapp.com",
+      //projectId: "job-portal-latest",
+      //storageBucket: "job-portal-latest.appspot.com",
+      //messagingSenderId: "786750618884",
+      //appId: "1:786750618884:web:b98c0dae338ca972a3e451",
+      //measurementId: "G-M2K3RJ986S",
+
+      apiKey: "AIzaSyDVi4IN8mpdzZloX8fV56LKjwEyrkQpry0",
+      authDomain: "job-portal-2021.firebaseapp.com",
+      projectId: "job-portal-2021",
+      storageBucket: "job-portal-2021.appspot.com",
+      messagingSenderId: "832016560748",
+      appId: "1:832016560748:web:ce5e54252d1d9c05bc1e49",
+      measurementId: "G-PZ30NRXVXB",
     };
     // Initialize Firebase
     if (!firebase.apps.length) {

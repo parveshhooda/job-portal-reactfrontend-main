@@ -2,7 +2,7 @@ import { useAuth } from "../contexts/AuthContext";
 
 //const SERVER = "https://job-portal-latest.herokuapp.com";
 // const SERVER = "http://localhost:8082";
-const SERVER = "https://jobportalproject2021.herokuapp.com/";
+const SERVER = "https://jobportalproject2021-server.herokuapp.com";
 export async function loginWithServer(data) {
   try {
     const res = await fetch(SERVER + "/login", {
